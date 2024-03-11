@@ -6,8 +6,19 @@ html, body {
     overflow: hidden;
     font-family: "Noto Sans KR", sans-serif;
     background-color: #f9f9f9;
+}
 
+.project1 {
+    transition: all 0.5s;
+    background-color: #FBE3F0;
+}
 
+.project2 {
+    background-color: #FAEFFF;
+}
+
+.project3 {
+    background-color: #E8FBFF;
 }
 
 .mainContainer {
@@ -26,6 +37,33 @@ html, body {
     
 }
 
+.proejctLogo {
+    text-align: left;
+
+}
+
+.projectContainer {
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+}
+
+.project1 > .projectContainer > .mainLogo {
+    width: 80%;
+    text-align: left;
+
+}
+
+.project2 > .projectContainer > .mainLogo {
+    width: 80%;
+    text-align: center;
+
+}
+.project3 > .projectContainer > .mainLogo {
+    width: 80%;
+    text-align: right;
+
+}
 .mainContents {
     width: 100%;
     height: 450px;
@@ -34,13 +72,13 @@ html, body {
     justify-content: center;
     align-items: center;
     background-color: #f1f3f5;
+    border-radius: 30px;
 }
 
 .content {
     width: 500px;
     height: 300px;
     margin: 50px;
-    padding: 10px;
     text-align: center;
 }
 
@@ -82,4 +120,28 @@ html, body {
 .contentButton:hover {
     background-color: black;
     color: white;
+}
+
+.projectImage {
+    margin: auto;
+    width: 80%;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.description {
+    text-align: left;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+}
+
+.project2 > .projectContainer > .description {
+    text-align: center;
+}
+
+.project3 > .projectContainer > .description {
+    text-align: right;
 }
